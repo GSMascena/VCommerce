@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="VCommerce_browser.jnlp">
+  <information>
+    <title>VCommerce</title>
+    <vendor>User</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="VCommerce.jar" size="53206" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="root.view.VCommerce"  name="VCommerce" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
